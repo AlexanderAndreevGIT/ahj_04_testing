@@ -1,7 +1,5 @@
 import CardFormWidget from '../CardWidget';
 
-jest.setTimeout(30000);
-
 test('should render self', () => {
   document.body.innerHTML = '<div id="widget-container"></div>';
   const container = document.querySelector('#widget-container');

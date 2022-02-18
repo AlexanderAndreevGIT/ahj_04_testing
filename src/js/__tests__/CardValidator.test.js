@@ -1,10 +1,5 @@
 import CardValidator from '../CardValidator';
 
-// test('it should return true for valid card', () => {
-//   const input = '771';
-//   expect(isValidInn(input)).toBe(true);
-// });
-
 test.each([
   ['true for valid card', '5555555555554444', true],
   ['false for invalid card', '555555555555444', false],

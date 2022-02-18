@@ -96,11 +96,6 @@ export default class CardFormWidget {
         }
       });
     }
-    // else {
-    //   this.cardList.forEach((item) => {
-    //     item.classList.remove('cdisabled');
-    //   });
-    // }
   }
 
   onSubmit(e) {
